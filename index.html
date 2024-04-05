@@ -7,23 +7,10 @@
   <title>Center of Excellence in Digital Manufacturing | BVM</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-  <style>
-    .logo-placeholder {
-      background-color: #2B6CB0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: white;
-      font-size: 1rem;
-      font-weight: bold;
-      height: 50px;
-      width: 150px;
-    }
-  </style>
+  <link href="styles.css" rel="stylesheet">
 </head>
 
 <body class="bg-gray-100">
-
   <!-- Navigation Bar -->
   <nav class="bg-white border-b">
     <div class="max-w-6xl mx-auto px-4">
@@ -39,93 +26,14 @@
           <div class="hidden md:flex items-center space-x-1">
             <a href="#" class="py-5 px-3 text-gray-700 hover:text-gray-900">Technologies</a>
             <a href="#" class="py-5 px-3 text-gray-700 hover:text-gray-900">Internship</a>
-            <a href="#" class="py-5 px-3 text-gray-700 hover:text-gray-900">Facilities</a>
             <a href="#" class="py-5 px-3 text-gray-700 hover:text-gray-900">Projects</a>
-            <a href="#" class="py-5 px-3 text-gray-700 hover:text-gray-900">Layout</a>
             <a href="#" class="py-5 px-3 text-gray-700 hover:text-gray-900">Our Partners</a>
-            <a href="#" class="py-5 px-3 text-gray-700 hover:text-gray-900">Donors</a>
+            <a href="#" class="py-5 px-3 text-gray-700 hover:text-gray-900">Investor</a>
           </div>
         </div>
       </div>
     </div>
   </nav>
-
-  <div class="container mx-auto my-8 px-6">
-    <div class="flex flex-wrap md:flex-nowrap">
-      <!-- Textual Information Section -->
-      <div class="md:w-2/5 text-gray-800 mb-6 md:mb-0">
-        <h2 class="text-3xl font-semibold mb-4">
-          Center of Excellence in Digital Manufacturing
-        </h2>
-        <p class="mb-4">
-          At CoE DM we provide various Client services and training under the domain of Smart Manufacturing. The
-          services will enable clients to test and debug problems before installing the solution at the site & also
-          allow them to experiment and innovate with an appropriate mix of standard and customized solutions.
-        </p>
-        <a href="#" class="bg-blue-600 text-white px-5 py-2 rounded hover:bg-blue-700 transition-colors">Learn More</a>
-      </div>
-
-      <!-- Image Grid Section -->
-      <div class="md:w-3/5">
-        <div class="grid grid-cols-2 gap-4">
-          <!-- Image Placeholder 1 -->
-          <div class="bg-gray-300 h-40 flex items-center justify-center">
-            <!-- Replace with actual image -->
-            <span>Education & Training</span>
-          </div>
-          <!-- Image Placeholder 2 -->
-          <div class="bg-gray-300 h-40 flex items-center justify-center">
-            <!-- Replace with actual image -->
-            <span>Consulting</span>
-          </div>
-          <!-- Image Placeholder 3 -->
-          <div class="bg-gray-300 h-40 flex items-center justify-center">
-            <!-- Replace with actual image -->
-            <span>Site Integration</span>
-          </div>
-          <!-- Image Placeholder 4 -->
-          <div class="bg-gray-300 h-40 flex items-center justify-center">
-            <!-- Replace with actual image -->
-            <span>Skill Certification</span>
-          </div>
-          <!-- Image Placeholder 5 -->
-          <div class="bg-gray-300 h-40 flex items-center justify-center">
-            <!-- Replace with actual image -->
-            <span>Prototyping</span>
-          </div>
-          <!-- Image Placeholder 6 -->
-          <div class="bg-gray-300 h-40 flex items-center justify-center">
-            <!-- Replace with actual image -->
-            <span>Research</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="container mx-auto my-8 px-6">
-    <div class="flex flex-wrap md:flex-nowrap">
-      <!-- Image Section -->
-      <div class="md:flex-1">
-        <img src="path-to-your-about-us-image.jpg" alt="About Us" class="w-full h-auto rounded shadow-lg">
-      </div>
-
-      <!-- Textual Information Section -->
-      <div class="md:flex-1 md:ml-6">
-        <h2 class="text-3xl font-semibold mb-4">About Us</h2>
-        <p class="mb-4">
-          Foundation for Smart Manufacturing (FSM) helps, supports, and develops Smart Manufacturing concepts for Indian
-          Industry to witness, ideate, and try out in their plants. FSM also aims for a holistic educational curriculum
-          and skill-building program through a vibrant incubation and administrative environment.
-        </p>
-        <p class="mb-6">
-          FSM Skills is a holistic platform for providing immersive training experience through Live lectures, Online
-          learning, Live demonstrations, Live Labs & Self paced exercises on remotely accessible actual hardware.
-        </p>
-        <a href="#" class="bg-blue-600 text-white px-5 py-2 rounded hover:bg-blue-700 transition-colors">Learn More</a>
-      </div>
-    </div>
-  </div>
 
   <section class="bg-gray-50 py-8">
     <div class="container mx-auto px-6">
@@ -171,95 +79,75 @@
     </div>
   </section>
 
-
-  <section class="bg-white py-8">
+  <section class="bg-gray-50 py-8">
     <div class="container mx-auto px-6">
-      <h2 class="text-3xl font-semibold text-center text-gray-800 mb-8">Details of Donor</h2>
-
-      <!-- Donor Details -->
-      <div class="flex flex-wrap justify-center items-center">
-        <!-- Donor 1 -->
-        <div class="w-full sm:w-1/2 lg:w-1/3 px-4 mb-8">
-          <div class="bg-gray-100 p-6 rounded-lg shadow-lg text-center">
-            <img src="path-to-donor-image.jpg" alt="Donor photo" class="w-32 h-32 mx-auto rounded-full mb-4">
-            <h3 class="text-lg font-semibold">Mr. Pratik Patel</h3>
-            <p class="text-gray-600 mb-4">Role, and Designation</p>
-            <p class="text-gray-600 mb-4">Company name</p>
-            <p class="text-gray-600 mb-4">Donation: 1 Crore</p>
-          </div>
-        </div>
-        <!-- Add more donors as needed -->
-      </div>
+      <h2 class="text-3xl font-semibold text-center text-gray-800 mb-8">Proposed Layout</h2>
     </div>
   </section>
 
 
-  <div class="bg-white py-8">
-    <div class="container mx-auto px-6">
-      <h2 class="text-3xl font-semibold text-center text-gray-800 mb-8">Why Choose Us</h2>
-      <div class="flex flex-wrap -mx-4 text-gray-800">
-        <!-- First Column -->
-        <div class="w-full md:w-1/3 px-4 mb-4 md:mb-0">
-          <h3 class="text-xl font-semibold mb-2">FSM Focus</h3>
-          <p class="text-gray-600">
-            FSM is focused on enabling people from becoming Smart to Samarth (capable) fraternity by creating awareness,
-            step-wise learning and becoming an expert from domains driving Industry 4.0
-          </p>
+  <div class="container mx-auto my-8 px-6">
+    <div class="flex flex-wrap md:flex-nowrap">
+      <!-- Textual Information Section -->
+      <div class="md:w-1/5 text-gray-800 mb-6 md:mb-0">
+        <h2 class="text-3xl font-semibold mb-4">
+          Internships
+        </h2>
+      </div>
+
+      <!-- Image Grid Section -->
+      <div class="md:w-3/5">
+        <div class="grid grid-cols-2 gap-4">
+          <!-- Image Placeholder 1 -->
+          <div class="bg-gray-300 h-40 flex items-center justify-center">
+            <!-- Replace with actual image -->
+            <img src="https://becht.com/wp-content/uploads/2019/07/FB-education-vs-training.jpg" alt="Company Logo"
+              class="logo">
+            <!-- <span>Education & Training</span> -->
+          </div>
+          <!-- Image Placeholder 2 -->
+          <div class="bg-gray-300 h-40 flex items-center justify-center">
+            <!-- Replace with actual image -->
+            <!-- <span>Consulting</span> -->
+            <img src="https://hbr.org/resources/images/article_assets/2020/07/AAug20_07_KlaweRzeczy_Consulting2.jpg"
+              alt="Company Logo" class="logo">
+          </div>
+          <!-- Image Placeholder 3 -->
+          <div class="bg-gray-300 h-40 flex items-center justify-center">
+            <!-- Replace with actual image -->
+            <img src="https://www.orpheusincorporated.com/wp-content/uploads/2021/04/AdobeStock_221014706.jpeg"
+              alt="Company Logo" class="logo">
+            <!-- <span>Site Integration</span> -->
+          </div>
+          <!-- Image Placeholder 4 -->
+          <div class="bg-gray-300 h-40 flex items-center justify-center">
+            <!-- Replace with actual image -->
+            <img src="https://www.orpheusincorporated.com/wp-content/uploads/2021/04/AdobeStock_221014706.jpeg"
+              alt="Company Logo" class="logo">
+            <!-- <span>Skill Certification</span> -->
+          </div>
         </div>
-
-        <!-- Second Column -->
-        <div class="w-full md:w-1/3 px-4 mb-4 md:mb-0 bg-blue-800 text-white rounded">
-          <h3 class="text-xl font-semibold mb-2">Strong Academic Connect</h3>
-          <p>
-            Academic strength of IIT Delhi brought interdisciplinary learnings to FSM. Expert Faculty members from
-            various departments contribute to it.
-          </p>
-        </div>
-
-        <!-- Third Column -->
-        <div class="w-full md:w-1/3 px-4 mb-4 md:mb-0 bg-blue-800 text-white rounded">
-          <h3 class="text-xl font-semibold mb-2">Consultation to Execution</h3>
-          <p>
-            FSM has highly trained manpower to implement the Industry 4.0 projects in guidance with experienced faculty
-            members and industry partners.
-          </p>
-        </div>
-
-
       </div>
     </div>
   </div>
 
   <div class="bg-white py-8">
     <div class="container mx-auto px-6">
-      <h2 class="text-3xl font-semibold text-center text-gray-800 mb-8">Partners</h2>
-      <p class="text-gray-600 text-center mb-6">
-        The Automation Industries Association (AIA) in its quest to set up a Common Engineering Facility Center (CEFC)
-        at IIT Delhi has brought together experts from various industries in the sector of automation. These experts
-        look forward to work together and use their industrial experience along with various verticals to initiate smart
-        manufacturing in India. The following firms have agreed to come together to set up the CEFC. They comprise
-        Technology & Investment Partners, Simulation & Integration Partners and Machinery Partners.
-      </p>
-      <a href="#"
-        class="block mb-8 mx-auto bg-blue-600 text-white px-5 py-2 rounded hover:bg-blue-700 transition-colors text-center w-max">Learn
-        More</a>
-
-      <!-- Logos Grid -->
-      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8 items-center justify-center">
-        <!-- Each image is a placeholder for a partner logo -->
-        <div class="flex items-center justify-center">
-          <!-- Replace with actual image source -->
-          <img src="path-to-partner-logo1.png" alt="Partner Logo 1" class="h-12">
+      <h2 class="text-3xl font-semibold text-center text-gray-800 mb-8">
+        Partners
+      </h2>
+      <div class="row">
+        <div class="column">
+          <img src="https://upload.wikimedia.org/wikipedia/en/0/00/Elecon_engineering_logo.png" alt="Snow"
+            style="width:100%">
         </div>
-        <!-- Repeat for each partner logo -->
+        <div class="column">
+          <img src="https://www.iafsm.in/images/2022/01/19/fsmlogo.png" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="https://jashindia.com/wp-content/uploads/2021/04/logo.png" alt="Mountains" style="width:100%">
+        </div>
       </div>
-
-      <h3 class="text-xl font-semibold text-gray-800 mt-12 mb-4 text-center">Platinum Sponsors</h3>
-      <!-- Platinum sponsors logos would go here, repeating the pattern above -->
-
-      <!-- Other sponsors categories -->
-      <h3 class="text-xl font-semibold text-gray-800 mt-12 mb-4 text-center">Gold Sponsors</h3>
-      <!-- Gold sponsors logos would go here, repeating the pattern above -->
     </div>
   </div>
 
